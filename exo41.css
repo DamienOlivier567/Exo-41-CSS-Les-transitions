@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#div{
+    width: 20rem;
+    height: 20rem;
+    font-size: 20rem;
+    background-color: black;
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 6s;
+    transition-timing-function: linear;
+}
+
+#div:hover {
+    width: 30rem;
+    height: 30rem;
+    font-size: 30rem;
+    color: lightgrey;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+#lorem{
+    width: 20rem;
+    height: 20rem;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 6s;
+    transition-timing-function: linear;
+}
+
+#lorem:hover{
+    width: 30rem;
+    height: 30rem;
+    font-size: 5rem;
+    color: black;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+#p{
+    width: 20rem;
+    height: 20rem;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 6s, 500ms;
+    transition-timing-function: linear;
+}
+
+#p:hover{
+    width: 30rem;
+    height: 30rem;
+    font-size: 5rem;
+    color: cyan;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: 1rem;
+    }
+
+    #div, #lorem, #p{
+        margin: 0;
+        width: 100%;
+    }
